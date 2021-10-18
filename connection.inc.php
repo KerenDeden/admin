@@ -1,8 +1,31 @@
 <?php
-	session_start();
-	$con=mysqli_connect("localhost","root","","ecom");
-	define('SERVER_PATH',$_SERVER['DOCUMENT_ROOT'].'/php/ecom/');
-	define('SITE_PATH','http://127.0.0.1/php/ecom/');
-	define('PRODUCT_IMAGE_SERVER_PATH',SERVER_PATH.'media/product/');
-	define('PRODUCT_IMAGE_SITE_PATH',SITE_PATH.'media/product/');
+
+  $a = 7;
+
+  /*
+  if($a == 5) {
+  } else if($a == 6){
+  } else{
+  }
+  */
+
+  Switch($a){
+
+    case 5:
+      echo 'Variable a is 5';
+    break;
+
+    case 6:
+      echo 'Variable a is 6';
+    break;
+
+    case $a % 4 == 3:
+      echo 'Variable a mod4 is 3';
+    break;
+
+    default:
+      echo 'Variable a is unknown';
+    break;
+  }
+
 ?>
