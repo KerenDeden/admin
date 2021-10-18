@@ -21,7 +21,7 @@ if(isset($_POST['submit'])){
 			die();
 		}
 	}else{
-		$msg="PLEASE ENTER CORRECT LOGIN DETAILS";	
+		$msg="Tolong masukan informasi dengan benar";	
 	}
 	
 }
@@ -60,11 +60,11 @@ if(isset($_POST['submit'])){
                   <form method="post">
                      <div class="form-group">
                         <label><b>USERNAME</b></label>
-                        <input type="text" name="username" class="form-control" placeholder="        " required>
+                        <input type="text" name="username" class="form-control" placeholder="Username" required>
                      </div>
                      <div class="form-group">
                         <label><b>PASSWORD</b></label>
-                        <input type="password" name="password" class="form-control" placeholder="          " required>
+                        <input type="password" name="password" class="form-control" placeholder="Password" required>
                      </div>
                      <button type="submit" name="submit" class="btn btn-success btn-flat m-b-30 m-t-30">SIGN IN</button>
 					</form>
