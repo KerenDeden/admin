@@ -7,7 +7,7 @@ require('top.inc.php');
 		  <div class="col-xl-12">
 			 <div class="card">
 				<div class="card-body">
-				   <h4 class="box-title">DASHBOARD </h4>
+				   <h4 class="box-title">Halaman Utama </h4>
 				</div>
 			</div>
 		  </div>
